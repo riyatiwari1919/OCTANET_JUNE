@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Merriweather:wght@300&family=Montserrat:wght@200&family=Permanent+Marker&family=Raleway&family=Righteous&family=Sacramento&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 90vw;
+    font-family: 'Raleway', sans-serif;
+    
+}
+.menu{
+    background-color: bisque;
+}
+.navbar{
+    display: flex;
+    height: 67px;
+    cursor: pointer;
+    
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+.first-view{
+    display: flex;
+}
+
+.topleft{
+    width: 140%;
+    padding: 60px;
+    
+}
+.topright{
+    width: 50%;
+    justify-content: center;
+    
+}
+.img{
+    height: 550px;
+}
+.section1{
+    background-color: white;
+}
+
+.logo{
+    font-size: 2rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.section2{
+    margin-top: 70px;
+    padding: 20px 63px;
+    background-color: bisque;
+    border-radius: 10px;
+}
+.section2 h1{
+    font-size: 2rem;
+    color: rgba(9, 116, 9, 0.911);
+    text-decoration: underline;
+}
+.section2 p{
+    padding: 0.8vw;
+}
+.section2 h2{
+    background-color: rgba(9, 116, 9, 0.911);
+    padding-top: 0;
+    color: white;
+}
+.section3{
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+
+}
+.section3 h1{
+    font-size: 2rem;
+    color: rgba(9, 116, 9, 0.911);
+    text-decoration: underline;
+}
+.section3 p{
+    padding: 0.8vw;
+}
+.boxes{
+    display: flex;
+}
+.box{
+    padding: 0 0 8px 0;
+    margin: 12px 23px;
+    min-width: 20vw;
+    border: 2px solid rgba(9, 116, 9, 0.911);
+    border-radius: 6px;
+    text-align: center;
+}
+.box h2{
+    padding: 15px 0;
+}
+.box ul{
+    list-style: none;
+}
+.box ul li{
+    margin: 12px 2px;
+}
+.contact{
+    margin: 0 auto;
+    text-align: center;
+    padding: 12px;
+}
+.contact ul{
+    margin: 0;
+    list-style: none;
+}
+.contact ul li{
+    padding: 12px;
+}
+
+.footer{
+    /*background-color: rgb(238, 237, 237);*/
+    background-color: bisque;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.social-media ul{
+    list-style: none;
+}
+.social-media ul li{
+    padding-right: 20px;
+}
+
+@media only screen and (max-width: 1023px)
+{  
+}
+
+/* big phones to small tablets: from 600 to 767px;  */
+@media only screen and (max-width: 768px)        
+{
+    .img{
+        height: 380px;
+    } 
+}
+    
+/* small phones to small tablets: from 481 to 600px;  */
+@media only screen and (max-width: 600px)
+{
+    .boxes{
+        display:block;
+    }
+    .first-view{
+        display: block;
+    }
+    .topleft{
+        width: 75%;
+        padding: 67px;
+        
+    }
+    .topright{
+        width: 100%;
+        justify-content: center;
+        
+    }
+    .img{
+        margin: 0 150px;
+    }
+    .section2{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .section3{
+        margin-top: 70px;
+        margin-bottom: 30px;
+        font-size: 0.9rem;
+    
+    }
+    .navbar{
+        display: block;
+        height: 75px;
+        
+    }
+    
+}
+       
+/* small phones: from 0 to 480px;  */
+@media only screen and (max-width: 480px)
+{
+    .boxes{
+        display:block;
+    }
+    .first-view{
+        display: block;
+    }
+    .topleft{
+        width: 80%;
+        padding: 38px;
+        
+    }
+    .topright{
+        width: 100%;
+        justify-content: center;
+        
+    }
+    .img{
+        margin: 0 70px;
+    }
+    .section2{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .section3{
+        margin-top: 70px;
+        margin-bottom: 30px;
+        font-size: 0.9rem;
+    
+    }
+    .navbar{
+        display: block;
+        height: 75px;
+        
+    }
+    
+}
