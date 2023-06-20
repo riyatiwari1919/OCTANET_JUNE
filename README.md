@@ -1,2 +1,2 @@
-# OCTANET_JUNE
-Includes all the tasks of web development, assigned by octanet in june 2023
+# OCTANET_JUNE_Task_1
+Include first task of web development intership at octanet, june 2023.
